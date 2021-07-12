@@ -1,0 +1,33 @@
+{
+    "workshoptitle": "Intro to Cloud Native Test",
+    "tutorials": [
+        {
+            "title": "Introduction",
+            "filename": "intro/intro.md"
+        },
+        {
+            "title": "Prerequisites",
+            "filename": "common/labs/cloud-login/pre-register-free-tier-account.md"
+        },
+        {
+            "title": "Slides",
+            "filename": "slides/landing.md"
+        },
+        {
+            "title": "Lab 1: Setup Cloud Environment",
+            "filename": "common/labs/setup-cloud-env/setup-cloud-env.md"
+        },
+        {
+            "title": "Lab 2: Deploy the Microservices App",
+            "filename": "labs/deploy/deploy.md"
+        },
+        {
+            "title": "Lab 3: Monitoring the deployment",
+            "filename": "labs/observability/monitoring.md"
+        },
+        {
+            "title": "Lab 4: Clean Up",
+            "filename": "labs/cleanup/cleanup.md"
+        }
+    ]
+}

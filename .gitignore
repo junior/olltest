@@ -1,0 +1,9 @@
+.vscode
+_site
+.DS_Store
+.sw[a-z]
+
+.terraform
+*tfstate*
+.idea/ 
+*.iml
