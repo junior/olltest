@@ -2,11 +2,10 @@
 
 Some slides:
 
-<object data="slides.html"
+<object data="/olltest/slides/slides.html"
     style="width: 100%; display: block;"
     height="700px"
     type="text/html">
     <embed
-        src="slides.html"
-        onerror="alert('URL invalid !!');" />
+        src="/olltest/slides/slides.html" />
 </object>
