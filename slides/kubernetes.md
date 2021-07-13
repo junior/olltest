@@ -1,4 +1,4 @@
-# ![Kubernetes logo](/common/images/k8s/kubernetes-icon-color.png)
+# ![Kubernetes logo](/olltest/common/images/k8s/kubernetes-icon-color.png)
 
 ---
 
@@ -46,7 +46,7 @@ Container-orchestration system for automating application deployment, scaling, a
 
 ## Kubernetes Architecture
 
-![Kubernetes Architecture](/common/images/k8s/k8s-architecture.png)
+![Kubernetes Architecture](/olltest/common/images/k8s/k8s-architecture.png)
 
 Note:
 
@@ -59,7 +59,7 @@ Each machine in a cluster is called a **node**. There are two types of nodes:
 
 ---
 
-![Kubernetes Master Node](/common/images/k8s/k8s-master.png)
+![Kubernetes Master Node](/olltest/common/images/k8s/k8s-master.png)
 
 Note:
 
@@ -81,7 +81,7 @@ Etcd is a distributed key-value store and this is where the state of the cluster
 
 ---
 
-![Kubernetes Worker Node](/common/images/k8s/k8s-worker.png)
+![Kubernetes Worker Node](/olltest/common/images/k8s/k8s-worker.png)
 
 Note:
 
@@ -127,7 +127,7 @@ Of course, you can define your own, custom resources as well
 
 ---
 
-![Kubernetes resources](/common/images/k8s/k8s-deployment.png)
+![Kubernetes resources](/olltest/common/images/k8s/k8s-deployment.png)
 
 Note:
 An architectural view of the most common resources in Kubernetes. 
@@ -230,7 +230,7 @@ Show how to set up Cloud shell - get the kubeconfig, set the context
 
 ---
 
-![Kubernetes pod](/common/images/k8s/pod.png)
+![Kubernetes pod](/olltest/common/images/k8s/pod.png)
 
 Note:
 
@@ -287,7 +287,7 @@ Note:
 
 ## Basic Commands
 
-![Basic kubectl commands](/common/images/k8s/kubectl-basic-cmds.png)
+![Basic kubectl commands](/olltest/common/images/k8s/kubectl-basic-cmds.png)
 
 ---
 
@@ -423,7 +423,7 @@ Because Kubernetes does not automatically restart a pod, a different resource is
 
 ---
 
-![Kubernetes resources](/common/images/k8s/k8s-deployment.png)
+![Kubernetes resources](/olltest/common/images/k8s/k8s-deployment.png)
 
 Note:
 Show this same diagram again, and explain the correlation between pods and a replicaset.
@@ -635,7 +635,7 @@ If you only have a replicaset, we would need create a new replicaset with a new 
 
 ---
 
-![Kubernetes resources](/common/images/k8s/k8s-deployment.png)
+![Kubernetes resources](/olltest/common/images/k8s/k8s-deployment.png)
 
 Note:
 Show this same diagram again, and explain the correlation between pods, replicaset, and deployments.
@@ -673,7 +673,7 @@ Just like with other resources, each deployment has a name, set of labels as  we
 
 ---
 
-![Deployment - 1](/common/images/k8s/deploy-1.png)
+![Deployment - 1](/olltest/common/images/k8s/deploy-1.png)
 
 Note:
 
@@ -683,7 +683,7 @@ So we start with a deployment and deployment makes sure there is a single replic
 
 ---
 
-![Deployment - 2](/common/images/k8s/deploy-2.png)
+![Deployment - 2](/olltest/common/images/k8s/deploy-2.png)
 
 Note:
 
@@ -691,7 +691,7 @@ If we try to make requests to that IP address, we can and everything works fine.
 
 ---
 
-![Deployment - 3](/common/images/k8s/deploy-3.png)
+![Deployment - 3](/olltest/common/images/k8s/deploy-3.png)
 
 Note:
 
@@ -699,7 +699,7 @@ until that pod dies.
 
 ---
 
-![Deployment - 4](/common/images/k8s/deploy-4.png)
+![Deployment - 4](/olltest/common/images/k8s/deploy-4.png)
 
 Note:
 
@@ -709,7 +709,7 @@ This is a problem. It is apparent that we cannot rely on pods IP address. This i
 
 ---
 
-![Kubernetes Service](/common/images/k8s/k8s-service.png)
+![Kubernetes Service](/olltest/common/images/k8s/k8s-service.png)
 
 Note:
 
@@ -841,7 +841,7 @@ spec:
 
 ---
 
-![Kubernetes resources](/common/images/k8s/k8s-deployment.png)
+![Kubernetes resources](/olltest/common/images/k8s/k8s-deployment.png)
 
 Note:
 Show this same diagram again, and explain the correlation between pods, replicaset, deployments and services.
@@ -1073,7 +1073,7 @@ Note:
 
 ---
 
-![Ingress 1](/common/images/k8s/ingress-1.png)
+![Ingress 1](/olltest/common/images/k8s/ingress-1.png)
 
 Note:
 
@@ -1085,7 +1085,7 @@ However, that doesn't work if you would want to access any of those service from
 
 ---
 
-![Ingress 2](/common/images/k8s/ingress-2.png)
+![Ingress 2](/olltest/common/images/k8s/ingress-2.png)
 
 Note:
 
@@ -1097,7 +1097,7 @@ Let's say you want to expose another service to the public - how would you do th
 
 ---
 
-![Ingress 3](/common/images/k8s/ingress-3.png)
+![Ingress 3](/olltest/common/images/k8s/ingress-3.png)
 
 Note:
 
@@ -1109,7 +1109,7 @@ It is more practical to have a single load balancer and then configure it in suc
 
 ---
 
-![Ingress 4](/common/images/k8s/ingress-4.png)
+![Ingress 4](/olltest/common/images/k8s/ingress-4.png)
 
 Note:
 
@@ -1119,7 +1119,7 @@ This ingress controller service and deployment is not in any way different from 
 
 ---
 
-![Ingress 5](/common/images/k8s/ingress-5.png)
+![Ingress 5](/olltest/common/images/k8s/ingress-5.png)
 
 Note:
 
@@ -1131,7 +1131,7 @@ So how can we access Service 1 or Service 3 for example through the same IP addr
 
 ---
 
-![Ingress 6](/common/images/k8s/ingress-6.png)
+![Ingress 6](/olltest/common/images/k8s/ingress-6.png)
 
 Note:
 
