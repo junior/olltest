@@ -10,12 +10,8 @@
             "filename": "common/labs/cloud-login/pre-register-free-tier-account.md"
         },
         {
-            "title": "Slides - Option 1",
-            "filename": "slides/option1.md"
-        },
-        {
-            "title": "Slides - Option 2",
-            "filename": "slides/option2.md"
+            "title": "Kubernetes Slides",
+            "filename": "slides/test.md"
         },
         {
             "title": "Lab 1: Setup Cloud Environment",
